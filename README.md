@@ -24,6 +24,3 @@ npm run dev
 
 Frontend: http://localhost:5173
 Backend API: http://localhost:5000/api/health
-
-## Login
-Së pari bëj Register në frontend. User-i ruhet në MongoDB te databaza `bankcare_react`, koleksioni `users`.
