@@ -1,7 +1,3 @@
-# BankCare React Fullstack
-
-Projekt full-stack për shërbim klienti në bankë.
-
 ## Teknologjitë
 - React Hooks
 - React Router
@@ -13,23 +9,18 @@ Projekt full-stack për shërbim klienti në bankë.
 ## Start lokal
 
 1. Instalo paketat:
-```bash
 npm run install-all
-```
+2. Krijo `.env` në folderin `backend` 
 
-2. Krijo `.env` në folderin `backend` duke kopjuar `.env.example`:
-```env
 PORT=5000
 MONGODB_URI=mongodb://127.0.0.1:27017/bankcare_react
 JWT_SECRET=ndrysho_kete_sekret
-```
 
 3. Sigurohu që MongoDB është ndezur.
 
 4. Starto frontend + backend:
-```bash
 npm run dev
-```
+
 
 Frontend: http://localhost:5173
 Backend API: http://localhost:5000/api/health
