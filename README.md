@@ -1,4 +1,4 @@
-## Teknologjitë
+## Teknologjite
 - React Hooks
 - React Router
 - Axios API calls
@@ -16,10 +16,11 @@ PORT=5000
 MONGODB_URI=mongodb://127.0.0.1:27017/bankcare_react
 JWT_SECRET=ndrysho_kete_sekret
 
-3. Sigurohu që MongoDB është ndezur.
+3. Sigurohu që MongoDB eshte ndezur.
 
 4. Starto frontend + backend:
 npm run dev
 
 Frontend: http://localhost:5173
 Backend API: http://localhost:5000/api/health
+
